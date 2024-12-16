@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isaac Abrahamson</title>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="page.css">
+</head>
+
+<body class="page">
+  <main role="main">
+    <section class="page-section">
+      <a href="/" class="goback">🡠 Go Back</a>
+      <h1 class="page-title">Course Finder</h1>
+      <p class="page-text">A command line application for viewing and searching courses and their requirements using
+        different data structures. This artifact was created using C++ and demonstrates my abilities in data
+        structures and algorithms.</p>
+
+      <div class="page-group">
+        <h2 class="page-heading">Artifact Link</h2>
+        <ul class="page-list">
+          <li><a href="https://github.com/IsaacAbrahamson/CS-300-Data-Structures" target="_blank">GitHub
+              Repository</a></li>
+        </ul>
+      </div>
+
+      <div class="page-group">
+        <h2 class="page-heading">Overview</h2>
+        <p class="page-text">This is a command line application I built for the CS-300 Data Structures and Algorithms
+          class. It contains a simple application to load a list of courses from a file into a data structure and then
+          print the whole list as well as specific courses and their perquisites.</p>
+      </div>
+
+      <div class="page-group">
+        <h2 class="page-heading">Justification and Enhancement</h2>
+        <p class="page-text">I selected this item because it shows how to use several different data structures to
+          accomplish the same task. Additionally, it also shows the creation of a complex data structure from scratch
+          with the Binary Search Tree. For this assignment, I made several improvements. My first improvement was to
+          take some of the description from a word file into the project readme. My next improvement was to improve the
+          sample data from about 10 courses to 200. My next improvement was to add timings to the method calls so the
+          difference could be seen between the chosen data structure. My next improvement was adding vector and hash
+          table data structures in addition to the binary search tree that could be chosen from. Finally, the addition
+          of the extra data structures made the code pretty complex, so I created an abstract structure class that all
+          three data structures implemented so that the one course menu could be greatly simplified and it uses the
+          abstract methods based on whichever structure the user chooses at runtime.</p>
+      </div>
+
+      <div class="page-group">
+        <h2 class="page-heading">Reflection</h2>
+        <p class="page-text">The hardest part of this improvement was working with C++ again. It has many features, but
+          a lot of the language is just so different and weird to use compared to programming languages I am more
+          familiar with. As an example, when I wanted to create the interface to use, it was tricky to figure this out
+          because C++ doesn’t have interfaces. I had to create an abstract class and then figure out how to use all
+          those virtual methods in the classes themselves. Throughout this process, I got some more experience using C++
+          and also remembered some of the basics of these different data structures.</p>
+      </div>
+
+      <a href="/" class="goback bottom">🡠 Back to Home</a>
+
+      <hr>
+
+      <section id="contact">
+        <h2 class="section-heading">Get in touch</h2>
+        <div class="links">
+          <a class="logo-link" href="https://github.com/IsaacAbrahamson" target="_blank"><i
+              class="devicon-github-original"></i></a>
+          <a class="logo-link" href="https://www.linkedin.com/in/isaacabrahamson/" target="_blank"><i
+              class="devicon-linkedin-plain"></i></a>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="page.js"></script>
+</body>

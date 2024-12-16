@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isaac Abrahamson</title>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="page.css">
+</head>
+
+<body class="page">
+  <main role="main">
+    <section class="page-section">
+      <a href="/" class="goback">🡠 Go Back</a>
+      <h1 class="page-title">Inventory App</h1>
+      <p class="page-text">An Android app used for tracking inventory levels. This artifact was created using Java
+        and
+        demonstrates my abilities in
+        software design and development.</p>
+
+      <div class="page-group">
+        <h2 class="page-heading">Artifact Link</h2>
+        <ul class="page-list">
+          <li><a href="https://github.com/IsaacAbrahamson/CS-360-Mobile-Programming" target="_blank">GitHub
+              Repository</a></li>
+        </ul>
+      </div>
+
+      <div class="page-group">
+        <h2 class="page-heading">Overview</h2>
+        <p class="page-text">My artifact for the software engineering and design portion is an inventory management
+          android application. This application lets users add inventory items and track their quantity levels. When the
+          levels go below a warning, the user can receive a notification. This was created as part of the mobile
+          application development class at SNHU.</p>
+      </div>
+
+      <div class="page-group">
+        <h2 class="page-heading">Justification and Enhancement</h2>
+        <p class="page-text">I selected this item because it showcases building a complete application from start to
+          finish from the ground up. I didn’t follow any tutorial or template, instead I built everything myself only
+          being given the inventory app requirements. This application shows my ability to meet software requirements,
+          build something from scratch, and build a working and polished android application. For this course I made
+          several improvements:</p>
+        <ul class="page-list">
+          <li>Simplified Inventory and InventoryDetail classes to combine functionality in the onCreate methods into
+            their
+            own methods.</li>
+          <li>Replaced SMS notifications with push notifications</li>
+          <li>Updated Inventory page so that items can be edited directly on the page instead of opening a detail page.
+          </li>
+          <li>Added login persistence so when you close/open app it remembers last user logged in.</li>
+          <li>Added a settings page.</li>
+          <li>Added logout functionality to the settings page.</li>
+          <li>Added notifications toggle to the settings page.</li>
+        </ul>
+      </div>
+
+      <div class="page-group">
+        <h2 class="page-heading">Reflection</h2>
+        <p class="page-text">The biggest challenge when working on this application is figuring out the Android sdk and
+          development. I had to read through a lot of android development documentation to understand how to send push
+          notifications, and I also had to read a lot on some of the view components to be able to capture input events
+          correctly.</p>
+      </div>
+
+      <a href="/" class="goback bottom">🡠 Back to Home</a>
+
+      <hr>
+
+      <section id="contact">
+        <h2 class="section-heading">Get in touch</h2>
+        <div class="links">
+          <a class="logo-link" href="https://github.com/IsaacAbrahamson" target="_blank"><i
+              class="devicon-github-original"></i></a>
+          <a class="logo-link" href="https://www.linkedin.com/in/isaacabrahamson/" target="_blank"><i
+              class="devicon-linkedin-plain"></i></a>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="page.js"></script>
+</body>
